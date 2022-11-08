@@ -11,6 +11,8 @@ Notas:
 
 -El style.css es la compilación de Bootstrap Sass junto con los cambios en _variables.scss y mis clases en _my_style.scss. 
 
+-Mis clases compiladas aparecen al final del style.css.
+
 Acceso web desde:
 
 [https://leonardo-villagran.github.io/sass/](https://leonardo-villagran.github.io/sass/)
