@@ -1,0 +1,51 @@
+.no-so-dark{
+    background-color: #212529;
+}
+.container{
+    width: 360px;
+}
+.text-cursive{
+    font-family: 'Arizonia', cursive;
+    color: white
+}
+
+.button{
+    color: white;
+}
+
+.text-200px{
+    font-size: 200px;   
+}
+.text-30px {
+    font-size: 30px;
+}
+.text-20px {
+    font-size: 20px;
+    
+}
+
+.card{
+    .bg-dark{
+        @extend .no-so-dark;
+    }
+    @extend .text-cursive;
+    .card-header{
+        @extend .text-200px;
+        height: 250px;
+        border-style: none;
+    }
+    .card-body{
+        border-style: none;
+    }
+    .card-title{
+        @extend .text-30px;
+    }
+    .card-footer{
+        @extend .text-20px;
+        border-style: none;
+    }
+    .text-light{
+        @extend .text-20px;
+    }
+    
+}
