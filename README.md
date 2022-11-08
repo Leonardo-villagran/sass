@@ -3,13 +3,13 @@
 
 Notas:
 
--Se realiza la compilación del css a través de Live Sass Compiler.
+-Se realiza la compilación del css de Bootstrap Sass a través de Live Sass Compiler.
 
--Se agregan clases al fuente de bootstrap a través del scss parcial llamado: _my_style.scss
+-Se agregan mis clases al fuente de Bootstrap Sass a través del scss parcial llamado: _my_style.scss
 
 -Se realizan cambios en _variables.scss para generar text-purple.
 
--El style.css es la compilación de bootstrap junto con los cambios en _variables.scss y mis clases en _my_style.scss. 
+-El style.css es la compilación de Bootstrap Sass junto con los cambios en _variables.scss y mis clases en _my_style.scss. 
 
 Acceso web desde:
 
