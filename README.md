@@ -3,13 +3,17 @@
 
 Notas:
 
--Se realiza la compilación del css de Bootstrap Sass a través de Live Sass Compiler.
+-Se realiza la compilación del css de Bootstrap Sass (bootstrap-5.2.2) dentro de assets a través de Live Sass Compiler.
 
--Se agregan mis clases al fuente de Bootstrap Sass a través del scss parcial llamado: _my_style.scss
+-Se agregan mis clases al fuente de Bootstrap Sass (bootstrap-5.2.2) a través del scss parcial llamado: _my_style.scss
 
--Se realizan cambios en _variables.scss para generar text-purple.
+-Se realizan cambios en _variables.scss para generar text-purple y el bg-purple a través de la variable $purple2:#cf649a; y se agrega al theme-color a través de "purple": $purple2. 
 
--El style.css es la compilación de Bootstrap Sass junto con los cambios en _variables.scss y mis clases en _my_style.scss. 
+-No utilizo $purple porque ya existe una variable llamada de esa forma, por eso utilizo $purple2.
+
+-Se compila el archivo bootstrap.scss en Bootstrap Sass (bootstrap-5.2.2) dentro de la carpeta scss, la cual posee los parciales _variables.scss y mis clases en _my_style.scss con los cambios solicitados. 
+
+-Se cambia el nombre de bootstrap.css a style.css.
 
 -Mis clases compiladas aparecen al final del style.css.
 
