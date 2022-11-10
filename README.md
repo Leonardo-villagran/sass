@@ -3,7 +3,7 @@
 
 Notas:
 
--Se realiza la compilación del css de Bootstrap Sass (bootstrap-5.2.2) dentro de assets a través de Live Sass Compiler.
+-Se copia el Bootstrap Sass (bootstrap-5.2.2) dentro de la carpeta css en la ruta ./assets/css/.
 
 -Se agregan mis clases al fuente de Bootstrap Sass (bootstrap-5.2.2) a través del scss parcial llamado: _my_style.scss
 
@@ -11,9 +11,9 @@ Notas:
 
 -No utilizo $purple porque ya existe una variable llamada de esa forma, por eso utilizo $purple2.
 
--Se compila el archivo bootstrap.scss en Bootstrap Sass (bootstrap-5.2.2) dentro de la carpeta scss, la cual posee los parciales _variables.scss y mis clases en _my_style.scss con los cambios solicitados. 
+-Se compila el archivo ./assets/css/bootstrap-5.2.2/scss/bootstrap.scss, la cual posee los parciales _variables.scss y mis clases en _my_style.scss con los cambios solicitados. 
 
--Se cambia el nombre de bootstrap.css a style.css.
+-Se cambia el nombre de bootstrap.css a style.css y se copia a la carpeta css.
 
 -Mis clases compiladas aparecen al final del style.css.
 
