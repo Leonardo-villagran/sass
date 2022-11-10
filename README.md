@@ -3,11 +3,13 @@
 
 Notas:
 
--Se copia el Bootstrap Sass (bootstrap-5.2.2) dentro de la carpeta css en la ruta ./assets/css/.
+-Se copia el source de Bootstrap Sass (bootstrap-5.2.2) dentro de la carpeta css en la ruta ./assets/css/bootstrap/scss/.
 
 -Se agregan mis clases al fuente de Bootstrap Sass (bootstrap-5.2.2) a través del scss parcial llamado: _LV_style.scss
 
 -Se realizan cambios en _variables.scss para generar text-purpura y el bg-purpura a través de la variable $purpura:#cf649a;
+
+-Se importa la letra cursiva a _variables.scss, utilizo la fuente llamada Arizonia. 
 
 -Se importa _LV_style.scss (@import "LV_style";) dentro de bootstrap.scss. 
 
