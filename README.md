@@ -5,17 +5,15 @@ Notas:
 
 -Se copia el Bootstrap Sass (bootstrap-5.2.2) dentro de la carpeta css en la ruta ./assets/css/.
 
--Se agregan mis clases al fuente de Bootstrap Sass (bootstrap-5.2.2) a través del scss parcial llamado: _my_style.scss
+-Se agregan mis clases al fuente de Bootstrap Sass (bootstrap-5.2.2) a través del scss parcial llamado: _LV_style.scss
 
--Se realizan cambios en _variables.scss para generar text-purple y el bg-purple a través de la variable $purple2:#cf649a; y se agrega al theme-color a través de "purple": $purple2. 
+-Se realizan cambios en _variables.scss para generar text-purpura y el bg-purpura a través de la variable $purpura:#cf649a;
 
--No utilizo $purple porque ya existe una variable llamada de esa forma, por eso utilizo $purple2.
+-Se importa _LV_style.scss (@import "LV_style";) dentro de bootstrap.scss. 
 
--Se compila el archivo ./assets/css/bootstrap-5.2.2/scss/bootstrap.scss, la cual posee los parciales _variables.scss y mis clases en _my_style.scss con los cambios solicitados. 
+-Se compila el archivo bootstrap.scss en la carpeta ./assets/css/bootstrap/scss/, donde agregué  los parciales _variables.scss y mis clases en _LV_style.scss con los cambios solicitados. 
 
--Se cambia el nombre de bootstrap.css a style.css y se copia a la carpeta css.
-
--Mis clases compiladas aparecen al final del style.css.
+-Se copia el bootstrap.css a la carpeta css.
 
 Acceso web desde:
 

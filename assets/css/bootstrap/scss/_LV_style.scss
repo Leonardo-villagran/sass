@@ -1,0 +1,67 @@
+/* Variables Start*/
+
+$size_texto_header: 200px;
+$size_texto_title: 30px;
+$size_texto_comun: 20px;
+$size_container: 360px;
+$heigh-header: 250px;
+
+/* Variables End */
+
+/* Elementos Start */
+
+.no-so-dark{
+    background-color: #212529;
+}
+.container{
+    width: $size_container;
+    color: white;
+}
+
+.button{
+    color: white;
+}
+/* Elementos End*/
+
+/* Textos Start */
+
+.text-header{
+    font-size: $size_texto_header;   
+}
+.text-title {
+    font-size: $size_texto_title;
+}
+.text-comun {
+    font-size: $size_texto_comun;
+}
+
+/* Textos End*/
+
+/*Card Start*/
+
+.card{
+    .bg-dark{
+        @extend .no-so-dark;
+    }
+    .card-header{
+        @extend .text-header;
+        height: $heigh-header;
+        border-style: none;
+    }
+    .card-body{
+        border-style: none;
+    }
+    .card-title{
+        @extend .text-title;
+    }
+    .card-footer{
+        @extend .text-comun;
+        border-style: none;
+    }
+    .text-light{
+        @extend .text-comun;
+    }
+    
+}
+
+/*Card End*/
