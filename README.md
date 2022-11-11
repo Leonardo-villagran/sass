@@ -7,15 +7,15 @@ Notas:
 
 -Se agregan mis clases al fuente de Bootstrap Sass (bootstrap-5.2.2) a través del scss parcial llamado: _LV_style.scss
 
--Se aplican los @extend dentro de _LV_style.scss.  
+-Se aplican los @extend dentro de _card.scss y _buttons.scss para modificar la forma y el color de la clase card y btn.  
 
--Se realizan cambios en _variables.scss para generar text-purpura y el bg-purpura a través de la variable $purpura:#cf649a;
+-Se realizan cambios en _variables.scss para generar text-purpura, bg-purpura y btn-purpura, a través de la variable $purpura:#cf649a;
 
 -Se importa la letra cursiva a _variables.scss, utilizo la fuente llamada Arizonia. 
 
 -Se importa _LV_style.scss (@import "LV_style";) dentro de bootstrap.scss. 
 
--Se compila el archivo bootstrap.scss en la carpeta ./assets/css/bootstrap/scss/, donde agregué  los parciales _variables.scss y mis clases en _LV_style.scss con los cambios solicitados. 
+-Se compila el archivo bootstrap.scss en la carpeta ./assets/css/bootstrap/scss/ con los cambios solicitados. 
 
 -Se copia el bootstrap.css a la carpeta css.
 
