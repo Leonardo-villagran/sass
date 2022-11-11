@@ -1,6 +1,9 @@
 @import "mixins/banner";
 @include bsBanner("");
 
+/* Mi estilo Start */
+@import "LV_style";
+/* Mi estilo End */
 
 // scss-docs-start import-stack
 // Configuration
@@ -50,8 +53,6 @@
 @import "utilities/api";
 // scss-docs-end import-stack
 
-/* Mi estilo Start */
-@import "LV_style";
-/* Mi estilo End */
+
 
 

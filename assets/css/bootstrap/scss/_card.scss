@@ -61,6 +61,28 @@
   > .list-group + .card-footer {
     border-top: 0;
   }
+
+    /*Agregado al card Start*/
+    
+    @extend .width-card;
+    @extend .bg-dark;
+    .card-header{
+        @extend .text-header;
+        @extend .text-purpura;
+    }
+    .card-title{
+        @extend .text-title;
+        @extend .text-purpura;
+    }
+    .card-text{
+      @extend .text-comun;
+
+    .card-footer{
+      @extend .text-footer;
+    }
+  }
+    /*Agregado al card End*/
+
 }
 
 .card-body {
@@ -69,6 +91,7 @@
   flex: 1 1 auto;
   padding: var(--#{$prefix}card-spacer-y) var(--#{$prefix}card-spacer-x);
   color: var(--#{$prefix}card-color);
+
 }
 
 .card-title {
@@ -103,7 +126,7 @@
   margin-bottom: 0; // Removes the default margin-bottom of <hN>
   color: var(--#{$prefix}card-cap-color);
   background-color: var(--#{$prefix}card-cap-bg);
-  border-bottom: var(--#{$prefix}card-border-width) solid var(--#{$prefix}card-border-color);
+  //border-bottom: var(--#{$prefix}card-border-width) solid var(--#{$prefix}card-border-color);
 
   &:first-child {
     @include border-radius(var(--#{$prefix}card-inner-border-radius) var(--#{$prefix}card-inner-border-radius) 0 0);
@@ -114,7 +137,7 @@
   padding: var(--#{$prefix}card-cap-padding-y) var(--#{$prefix}card-cap-padding-x);
   color: var(--#{$prefix}card-cap-color);
   background-color: var(--#{$prefix}card-cap-bg);
-  border-top: var(--#{$prefix}card-border-width) solid var(--#{$prefix}card-border-color);
+  //border-top: var(--#{$prefix}card-border-width) solid var(--#{$prefix}card-border-color);
 
   &:last-child {
     @include border-radius(0 0 var(--#{$prefix}card-inner-border-radius) var(--#{$prefix}card-inner-border-radius));

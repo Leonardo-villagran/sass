@@ -205,3 +205,11 @@
 .btn-sm {
   @include button-size($btn-padding-y-sm, $btn-padding-x-sm, $btn-font-size-sm, $btn-border-radius-sm);
 }
+
+/*Agregado botón Start*/
+
+.btn{
+  @extend .text-light;
+  @extend .btn-purpura;
+}
+/*Agregado botón End*/

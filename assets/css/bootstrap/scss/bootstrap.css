@@ -5,7 +5,44 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+/* Mi estilo Start */
+/* Variables Start*/
+/* Variables End */
+/* Elementos Start */
 @import url("https://fonts.googleapis.com/css2?family=Arizonia&display=swap");
+.no-so-dark {
+  background-color: #212529;
+}
+
+.width-card, .card {
+  width: 360px;
+}
+
+/* Elementos End*/
+/* Textos Start */
+.text-header, .card .card-header {
+  font-size: 200px;
+  height: 250px;
+  text-align: center;
+  border: none;
+}
+
+.text-title, .card .card-title {
+  font-size: 30px;
+}
+
+.text-comun, .card .card-text {
+  font-size: 20px;
+  color: white;
+}
+
+.text-footer, .card .card-text .card-footer {
+  border: none;
+  color: white;
+}
+
+/* Textos End*/
+/* Mi estilo End */
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -3034,7 +3071,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: #212529;
 }
 
-.btn-purpura {
+.btn-purpura, .btn {
   --bs-btn-color: #000;
   --bs-btn-bg: #cf649a;
   --bs-btn-border-color: #cf649a;
@@ -3240,6 +3277,8 @@ textarea.form-control-lg {
   --bs-btn-border-radius: 0.25rem;
 }
 
+/*Agregado botón Start*/
+/*Agregado botón End*/
 .fade {
   transition: opacity 0.15s linear;
 }
@@ -4265,6 +4304,8 @@ textarea.form-control-lg {
   background-clip: border-box;
   border: var(--bs-card-border-width) solid var(--bs-card-border-color);
   border-radius: var(--bs-card-border-radius);
+  /*Agregado al card Start*/
+  /*Agregado al card End*/
 }
 .card > hr {
   margin-right: 0;
@@ -4288,7 +4329,6 @@ textarea.form-control-lg {
 .card > .list-group + .card-footer {
   border-top: 0;
 }
-
 .card-body {
   flex: 1 1 auto;
   padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
@@ -4317,7 +4357,6 @@ textarea.form-control-lg {
   margin-bottom: 0;
   color: var(--bs-card-cap-color);
   background-color: var(--bs-card-cap-bg);
-  border-bottom: var(--bs-card-border-width) solid var(--bs-card-border-color);
 }
 .card-header:first-child {
   border-radius: var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius) 0 0;
@@ -4327,7 +4366,6 @@ textarea.form-control-lg {
   padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);
   color: var(--bs-card-cap-color);
   background-color: var(--bs-card-cap-bg);
-  border-top: var(--bs-card-border-width) solid var(--bs-card-border-color);
 }
 .card-footer:last-child {
   border-radius: 0 0 var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius);
@@ -8249,7 +8287,7 @@ textarea.form-control-lg {
   color: rgba(var(--bs-danger-rgb), var(--bs-text-opacity)) !important;
 }
 
-.text-light {
+.text-light, .btn {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-light-rgb), var(--bs-text-opacity)) !important;
 }
@@ -8259,7 +8297,7 @@ textarea.form-control-lg {
   color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
 }
 
-.text-purpura {
+.text-purpura, .card .card-header, .card .card-title {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-purpura-rgb), var(--bs-text-opacity)) !important;
 }
@@ -8350,7 +8388,7 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
 }
 
-.bg-dark {
+.bg-dark, .card {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
 }
@@ -11021,45 +11059,4 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
-}
-/* Mi estilo Start */
-/* Variables Start*/
-/* Variables End */
-/* Elementos Start */
-.no-so-dark, .card .bg-dark {
-  background-color: #212529;
-}
-
-.container {
-  width: 360px;
-  color: white;
-}
-
-/* Elementos End*/
-/* Textos Start */
-.text-header, .card .card-header {
-  font-size: 200px;
-}
-
-.text-title, .card .card-title {
-  font-size: 30px;
-}
-
-.text-comun, .card .text-light, .card .card-footer {
-  font-size: 20px;
-}
-
-/* Textos End*/
-/*Card Start*/
-.card .card-header {
-  height: 250px;
-  border-style: none;
-}
-.card .card-body {
-  border-style: none;
-}
-.card .card-footer {
-  border-style: none;
-}
-/*Card End*/
-/* Mi estilo End *//*# sourceMappingURL=bootstrap.css.map */
+}/*# sourceMappingURL=bootstrap.css.map */
