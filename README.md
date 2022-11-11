@@ -1,5 +1,5 @@
 "# sass" 
-" Trabajo número 4 (Sass) de DesafioLatam para el módulo: CSS avanzado (G27):"
+"Trabajo número 4 (Sass) de DesafioLatam para el módulo: CSS avanzado (G27):"
 
 Notas:
 
