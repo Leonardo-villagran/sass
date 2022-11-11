@@ -3,6 +3,7 @@
 $size_texto_header: 200px;
 $size_texto_title: 30px;
 $size_texto_comun: 20px;
+$size_texto_button: 20px;
 $width_card: 360px;
 $heigh-header: 250px;
 
@@ -34,9 +35,12 @@ $heigh-header: 250px;
     font-size: $size_texto_comun;
     color: white;
 }
-.text-footer {
-    border: none;  
-    color: white;
+
+.botones{
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-size: $size_texto_button;
 }
+
 
 /* Textos End*/
